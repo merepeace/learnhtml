@@ -2,27 +2,60 @@
 <html>
     <head>
         <title> Umesh Rokya details </title>
+        <link rel="icon" type="image" href="C:\Users\Acer\OneDrive\Desktop\UmeshProjects\htmlproject\icon.png">
+      <!base href="https://www.w3schools.com/" target="_blank">
+        
 <style>
+    body
+    {
+background-image: url('phone.jpg');
+background-image: url('Rhododendron-National-Flower-of-Nepal.jpg');
+<!background-repeat: no-repeat;    remove repetations>
+background-repeat: no-repeat;
+  background-attachment:fixed;  
+ background-size:cover;   <!we can write 100% 100% instade of cover>  
+}
+
+    
 address
 {
-background-color: rgb(255, 0, 13);
+background-color: rgb(166, 152, 153);
 font-size: 15px;
 font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-display:red;
 }
 img
 {
 outline-width: 20pc;
-width: 500px;
-height:500px;
+width: 600px;
+height: 600px;;
 }
 p {
 border: 20px solid rgb(230, 176, 176);
-background-color: chartreuse;
+background-color: rgb(233, 221, 222), 0.075);
+font-size=20px;
+}
+table, th, td
+{
+  border:1px solid black;
+  border-collapse: collapse;
+   font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+th, td {
+  background-color: yellowgreen;
 }
 
 </style>
     </head>
-<body style="background-color: rgb(43, 226, 171);">
+<body style="background-color: rgb(134, 12, 247);">
+    <h2>Alternative text</h2>
+
+<p style="font-size: 40px;">The alt attribute should reflect the image content, so users who cannot see the image get an understanding of what the image contains:</p>
+
+<img src="img_chania.jpg" alt="Flowers in Chania" width="100%" height="100%">
     <center>
         <h1 style="border: 2px solid rgb(205, 63, 136);" > <p style="background-color: rgb(255, 0, 123);"> I love Nepal</p>  </h1>
     </center>
@@ -41,11 +74,32 @@ background-color: chartreuse;
     Municipality: Aadarsh<br>
     Ward:05 <br>
 </p>
+<h2>TR elements define table rows</h2>
+
+<table style="width:90%">
+  <tr>
+    <th> Nepal  </th>
+    <th> Age  </th>
+    <th> Sex  </th>
+    <th> Country  </th>
+  </tr>
+  <tr>
+    <td> Ram Maya  </td>
+    <td>  45 </td>
+    <td>  Female </td>
+    <td>  Nepal </td>
+  </tr>
+  <tr>
+  <td> Hari prasad  </td>
+  <td> 66  </td>
+  <td>  Male </td>
+  <td>  Nepal  </td>
+</table>
 </address>
 
 <h1>The audio element</h1>
 
-<p>बडा दशैँ २०८० सालको शुभकामना सुन्न यँहा  थिच्नुहोस l <br>
+<p style="font-size: 50px;">बडा दशैँ २०८० सालको शुभकामना सुन्न यँहा  थिच्नुहोस  ‍ </p> <br>
    (Click on the play button to play a sound:) </p>
 
 <audio controls>
@@ -53,5 +107,23 @@ background-color: chartreuse;
     <source src="shubhakamana.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+<p>बडा दशैँ २०८० सालको शुभकामना  यँहा  थिच्नुहोस l <br>
+    (Click on the play button to play a video :) </p>
+ 
+ <video controls>
+       <source src="Takitaki.mp4" type="video/mp4">
+     <source src="Takitaki.mp4" type="video">
+   Your browser does not support the audio element.
+ </video>
+
+
+<p>
+    <img src="stickman.gif" width="1" height="1" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".
+</p>
+
+<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+<img src="abcd.jpg" alt="My image"  height="600" width="300">
 </body>
 </html>
