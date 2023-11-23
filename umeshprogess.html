@@ -31,11 +31,7 @@ outline-width: 20pc;
 width: 600px;
 height: 600px;;
 }
-p {
-border: 20px solid rgb(230, 176, 176);
-background-color: rgb(233, 221, 222), 0.075);
-font-size=20px;
-}
+
 table, th, td
 {
   border:1px solid black;
@@ -47,7 +43,17 @@ table, th, td
 th, td {
   background-color: yellowgreen;
 }
-
+p2{
+font-size: 100px;
+background-color: blueviolet;
+font
+font-family: monospace;
+}
+p {
+border: 20px solid rgb(230, 176, 176);
+background-color: rgb(233, 221, 222), 0.075);
+font-size=20px;
+}
 </style>
     </head>
 <body style="background-color: rgb(134, 12, 247);">
@@ -69,7 +75,7 @@ th, td {
     <p style="border: 5px solid gray;">
    <br>
     Name: Umesh Rokaya <br>
-    provience : Suduppaschim<br>
+    provience : Sudurpaschim<br>
     District: Doti<br>
     Municipality: Aadarsh<br>
     Ward:05 <br>
@@ -125,5 +131,28 @@ th, td {
 <p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
 
 <img src="abcd.jpg" alt="My image"  height="600" width="300">
+
+<br>
+<br>
+
+
+<form>
+    <p2>
+    <div >
+      <label for="week">What week would you like to start?</label>
+      <input
+        id="week"
+        type="week"
+        name="week"
+        min="2017-W01"
+        max="2017-W52"
+        required />
+      <span class="validity"></span>
+    </div>
+    <div>
+      <input type="submit" value="Submit form" />
+    </div>
+  </form>
+</p2>
 </body>
 </html>
