@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CREATING FIRST FORM IN HTML </title>
+</head>
+<body>
+    <br>
+    <br>
+Name:<input type="text" name="Name" size="60" maxlength="50" placeholder="Name" > 
+<br>
+<br>
+Father's Name :<input type="text" name="Fathers Name" size="50" maxlength="50" placeholder="Father's Name" > <br>
+<br>
+<br>
+Mother's Name :<input type="text" name="Mother's Name" size="50" maxlength="50" placeholder="Mother's Name" > <br>
+<br>
+<br>
+Email :<input type="text" name="Email " size="60" maxlength="50" placeholder="email" > <br>
+<br>
+<br>
+Gender :<input type="radio" name="gender" size="60" maxlength="50" value="Male "> Male   <br> <br>
+<br>
+
+Gender :<input type="radio" name="gender" size="60" maxlength="50" value="Female">Female <br> <br>
+<br>
+<br>
+Mobile Number :<input type="text" name="Email " size="60" maxlength="50" placeholder="Mobile Number" > <br>
+<br>
+<br>
+<fieldset>
+    <legend>Choose your monster's features:</legend>
+  
+    <div>
+      <input type="checkbox" id="scales" name="scales" checked />
+      <label for="scales">Scales</label>
+    </div>
+  
+    <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Scales</label>
+      </div>
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Scales</label>
+      </div>
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Scales</label>
+      </div>
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Scales</label>
+      </div>
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">Scales</label>
+      </div>
+  </fieldset>
+
+  <p>Choose your monster's colors:</p>
+
+<div>
+  <input type="color" id="head" name="head" value="#e66465" />
+  <label for="head">Head</label>
+</div>
+<br>
+<br>
+<div>
+  <input type="color" id="body" name="body" value="#f6b73c" />
+  <label for="body">Body</label>
+</div>
+<br>
+<br>
+<label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+<br>
+<br>
+<form>
+    <div>
+      <label for="title">Post title:</label>
+      <input type="text" id="title" name="title" value="My excellent blog post" />
+    </div>
+    
+    <br>
+    <br>
+    <div>
+      <label for="content">Post content:</label>
+      <textarea id="content" name="content" cols="60" rows="5">
+    This is the content of my excellent blog post. I hope you enjoy it!
+      </textarea>
+    </div>
+    <div>
+      <button type="submit">Update post</button>
+    </div>
+    <input type="hidden" id="postId" name="postId" value="34657" />
+  </form>
+
+
+
+
+  <p> Sign in to your account:</p>
+  <div>
+    <label for="user Id"> User Id</label>
+    <input type="text" id="userId"  name="UserId" />
+  </div>
+  <br>
+  <br>
+  <input type="image" id="image" alt="Login"  src=" login-button.png" />
+
+  <br>
+  <br>
+  <label for ="start"> Start Month: </label>
+<input type="month" id="start" name="start" min="2018-03" value="2018-05" />
+
+<br>
+<br>
+<br>
+<label for ="End of month"> End of Month: </label>
+<input type="month" id="End" name="End" min="2018-03" value="2030-05" />
+
+<br>
+<br>
+<br>
+<form>
+<label for="bday-month">What month were you born in ? </label>
+<input id="bday-month"
+    type="month"
+    name="bday-month"
+    min="1900-1"
+    Max="2080-05-06" >
+
+</form>
+<br>
+<br>
+<br>
+<div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" />
+  </div>
+  <br>
+  <br>
+  <div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password" minlength="8" required />
+  </div>
+  
+  <input type="submit" value="Sign in" />
+  
+
+  <fieldset>
+    <legend> Select a maintence drone:</legend>
+<div>
+<input type="radio" id="hyey" name="drone" value="huey " checked/>
+<label for ="huey"> Huey</label>
+</div>
+<div>
+    <input type="radio" id="huey" name="drone" value="huey " checked/>
+    <label for ="huey"> Dewey</label>
+    </div>
+    <div>
+        <input type="radio" id="hyey" name="drone" value="huey " checked/>
+        <label for ="huey"> Louie</label>
+        </div>
+
+  </fieldset>
+
+  <p> Audio Setting</p>
+  <div>
+<input type="range" id="volume" name="volume"  min="0" max="15" />
+<label for=" volume"> Volume </label>
+  </div>
+  <br>
+  <br>
+  <div>
+    <input type="range" id="volume" name="volume"  min="0" max="15" />
+    <label for=" volume"> School bell</label>
+      </div>
+
+      <br>
+      <br>
+      <p>Audio settings:</p>
+
+    <div>
+      <input type="range" id="volume" name="volume" min="0" max="11" />
+      <label for="volume">Volume</label>
+    </div>
+    
+    <div>
+      <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+      <label for="cowbell">Cowbell</label>
+    </div>
+    <br>
+    <br>
+        <form>
+        <label for="appt-time">Choose an appointment time: </label>
+        <input id="appt-time" type="time" name="appt-time" />
+      </form>
+      <br>
+    <br>
+<form>
+    <label for="date"> Choose date </label>
+ 
+    <input id="date"    id="start" name="start" min="2000-01-01" value="2000-01-02">
+</form>
+<form>
+    <div class="nativeTimePicker">
+      <label for="appt-time">
+        Choose an appointment time (opening hours 12:00 to 18:00):
+      </label>
+      <br>
+    <br>
+      <input
+        id="appt-time"
+        type="time"
+        name="appt-time"
+        min="12:00"
+        max="18:00"
+        required />
+      <span class="validity"></span>
+    </div>
+    <p1 class="fallbackLabel">
+      Choose an appointment time (opening hours 12:00 to 18:00):
+    </p1>
+    
+    <div class="fallbackTimePicker">
+      <div>
+        <span>
+          <label for="hour">Hour:</label>
+          <select id="hour" name="hour"></select>
+        </span>
+        <span>
+          <label for="minute">Minute:</label>
+          <select id="minute" name="minute"></select>
+        </span>
+      </div>
+    </div>
+  </form>
+
+  <br>
+  <br>
+  
+  <form>
+    <label for="url">Enter an https:// URL:</label>
+    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+  </form>
+  <br>
+  <br>
+  <form>
+<label for="Week"> what week would you like to start? </label>
+<input id="week" type="week" name="Week" min="2000-w01" max="2080-52w"/>
+<span class="validity" > </span>
+  </form>
+</body>
+
+</html>
